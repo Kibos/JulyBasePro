@@ -8,12 +8,12 @@
   "properties": {},
   "validations": [],
   "relations": {
-      "product": {
+    "product": {
       "type": "hasMany",
       "model": "product",
       "foreignKey": "ownerId"
-    }  
-    },
+    }
+  },
   "acls": [],
   "methods": {}
 }

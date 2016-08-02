@@ -3,11 +3,25 @@
     "name": "db",
     "connector": "memory"
   },
-    "Mongodb": {
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  },
+  "dsMongodb": {
     "host": "127.0.0.1",
     "port": 27017,
     "database": "Tranings",
-    "name": "Mongodb",
+    "name": "dsMongodb",
     "connector": "mongodb"
+  },
+  "dsMysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "url": "mysql://root:root@localhost/training",
+    "database": "training",
+    "password": "root",
+    "name": "dsMysql",
+    "user": "root",
+    "connector": "mysql"
   }
 }

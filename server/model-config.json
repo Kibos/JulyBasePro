@@ -31,18 +31,24 @@
   },
   "Role": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "user": {
-    "dataSource": "db",
+    "dataSource": "dsMongodb",
     "public": true
   },
   "product": {
-    "dataSource": "db",
-    "public": true
+    "dataSource": "dsMongodb",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Coffee": {
     "dataSource": "db",
+    "public": true
+  },
+  "productPicture": {
+    "dataSource": "dsMongodb",
     "public": true
   }
 }
